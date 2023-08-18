@@ -1,0 +1,27 @@
+HTML 
+1. create a main container 
+    - put in the h1 for the title and player's turn
+2. create a container for the grid 
+    - create 9 small squares 
+    - border bottom border right, etc for the lines 
+
+JAVASCRIPT
+1. querySelectorAll to get all the boxes 
+2. LOOP through the array (NodeList) of boxes
+    - add a click event
+        - add either an X or 0 inside the box 
+        - add either a textContent or an h1 when clicked
+        - check if there is a winner 
+3. create a function to check if there's a winner 
+
+** Things to be aware of **
+    - after an O or X is added, it shouldn't be changed 
+    - after someone wins no more X's or Os can be added 
+    
+
+OVERALL
+1. create grid
+2. be able to add an X or O to each squares
+3. be able to determine a winner 
+4. prevent changing already played squares
+5. be able to stop the game after someone wins 
